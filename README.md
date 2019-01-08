@@ -15,4 +15,4 @@
 - Load kernel config: ```[CONTAINER] cd /build && make O=out nile_defconfig```
 - Compile kernel: ```[CONTAINER] cd /build && make O=out -j9``` (Adjust ```-j``` for your CPU (Cores + 1))
 - Exit build container
-- New kernel is located at ```arch/arm64/boot/Image.gz-dtb```
+- New kernel is located at ```out/arch/arm64/boot/Image.gz-dtb```
