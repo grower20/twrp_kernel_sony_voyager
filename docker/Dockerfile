@@ -8,10 +8,10 @@ ENV DEBIAN_FRONTEND=noninteractive \
 RUN apt update && \
     apt install -y git
 
-# install cross compiler and build tools
+# install cross compiler and other required toolchain components
 RUN cd / && \
     apt update && \
-    apt install -y build-essential python && \
+    apt install -y build-essential python libssl-dev bc && \
     git clone $CROSS_COMPILER_REPO && \
     ln -s ${CROSS_COMPILER_DIRNAME}* $CROSS_COMPILER_DIRNAME
 
