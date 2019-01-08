@@ -1,5 +1,5 @@
 # twrp_kernel_sony_voyager
-- This is the stock kernel for the Sony XA2 Plus from https://developer.sony.com/develop/open-devices/downloads/open-source-archives with slight modifications to work with TWRP (https://twrp.me/).
+- This is the stock kernel for the Sony XA2 Plus (50.1.A.11.40) from https://developer.sony.com/develop/open-devices/downloads/open-source-archives with slight modifications to work with TWRP (https://twrp.me/).
 - Original [README](../master/README) and [COPYING](../master/COPYING) notices.
 
 ## Compile
